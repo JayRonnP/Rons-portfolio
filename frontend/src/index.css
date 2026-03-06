@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-deep-black text-white font-sans antialiased;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #152515;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #39ff14;
+}
+
+/* Utility for generic neon glow text */
+.text-glow {
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+}
+
+/* Wavy separator */
+.wavy-separator {
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
