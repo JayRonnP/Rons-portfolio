@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Chatbot from './components/Chatbot';
 
 const WaveSeparator = ({ invert = false, fillClass = "fill-[#050a05]", className = '' }) => (
     <div className={`w-full overflow-hidden leading-none ${className}`}>
@@ -40,6 +41,7 @@ function App() {
                 {/* Footer has its own dark bg #050a05 and wave */}
             </main>
             <Footer />
+            <Chatbot />
         </div>
     );
 }

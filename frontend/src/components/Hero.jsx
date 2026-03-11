@@ -3,7 +3,7 @@ import { FaFacebookF, FaLinkedinIn, FaChevronDown } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import ParticleBackground from './ParticleBackground';
 
-const TYPING_TEXTS = ['UI/UX Designer', 'Web Development'];
+const TYPING_TEXTS = ['UI/UX Designer', 'Web Developer'];
 const TYPING_SPEED = 80;
 const DELETING_SPEED = 50;
 const PAUSE_AFTER_TYPE = 1800;
